@@ -1,0 +1,57 @@
+p.navbar-brand {
+ margin-bottom: 0;
+}
+
+
+.card-img-top {
+    max-width:480px;
+    max-height:270px;
+}
+
+.card {
+    display: inline-block;
+    margin: 20px 20px;
+    max-width:100%;
+}
+
+
+.card-body a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.card-body a:hover{
+    color: #2080BA;
+}
+
+.card-text{
+    height:160px;
+    overflow: auto;
+}
+
+/*
+.card-text{
+    font-size:19px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+*/
+
+footer, footer p {
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+footer div {
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: medium;
+  opacity: 0.5;
+}
+
+footer p {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
